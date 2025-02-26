@@ -106,7 +106,7 @@ function MainComponent() {
           </form>
 
           <a
-            href="/wifi-access-marketplace"
+          
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-sigmar"
           >
             List Your WiFi
