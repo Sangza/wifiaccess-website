@@ -122,14 +122,14 @@ function MainComponent() {
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-4">
             <a
-              href="#"
+              // href="#"
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar"
             >
               <i className="fab fa-apple text-2xl mr-2"></i>
               Download on App Store
             </a>
             <a
-              href="#"
+              // href="#"
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar"
             >
               <i className="fab fa-google-play text-2xl mr-2"></i>
@@ -263,20 +263,20 @@ function MainComponent() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
               <p className="text-white/90 mb-4 font-sigmar">
-                "I've been able to help my community stay connected while
-                earning extra income."
+                "We have used this to provide Unlimited internet access to 
+                to student around our school."
               </p>
               <p className="text-white font-bold font-sigmar">
-                - Sarah K., Host
+                - Uche Okenyi, Host
               </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
               <p className="text-white/90 mb-4 font-sigmar">
-                "Finding reliable WiFi has never been easier. Perfect for remote
-                work!"
+                " I use unlimited Internet I get to access youtube videos 
+                to help me study"
               </p>
               <p className="text-white font-bold font-sigmar">
-                - Michael R., Guest
+                - Michael , Guest
               </p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
@@ -284,7 +284,7 @@ function MainComponent() {
                 "The platform is secure and easy to use. Great community!"
               </p>
               <p className="text-white font-bold font-sigmar">
-                - Lisa M., Host
+                - Godspeed, Host
               </p>
             </div>
           </div>
@@ -326,7 +326,7 @@ function MainComponent() {
                   </p>
                 </div>
                 <a
-                  href=""
+                  // href=""
                   className="mt-4 inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar w-full text-center"
                 >
                   View Details
@@ -337,7 +337,7 @@ function MainComponent() {
 
           <div className="text-center mt-12">
             <a
-              href=""
+              // href=""
               className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar inline-block mr-4"
             >
               Browse All Spots
@@ -386,7 +386,7 @@ function MainComponent() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     About Us
@@ -394,7 +394,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     How It Works
@@ -402,7 +402,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Pricing
@@ -410,7 +410,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Blog
@@ -425,7 +425,7 @@ function MainComponent() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Help Center
@@ -433,7 +433,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Safety Center
@@ -441,7 +441,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Community Guidelines
@@ -449,7 +449,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href=""
+                    // href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Contact Us
@@ -488,19 +488,19 @@ function MainComponent() {
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a
-                  href=""
+                  // href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Terms of Service
                 </a>
                 <a
-                  href=""
+                  // href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href=""
+                  // href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Cookie Policy
