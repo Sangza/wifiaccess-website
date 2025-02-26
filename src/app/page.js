@@ -7,16 +7,16 @@ function MainComponent() {
     {
       id: 1,
       title: "Unlimited Internet",
-      location: "Downtown Business District",
-      price_per_day: 15,
+      location: "Enugu State College of Medicine Hostel 1",
+      price_per_day: 1500,
       speed_mbps: 100,
     },
     {
       id: 2,
       title: "Godspeed Internet",
-      location: "Tech Hub Area",
-      price_per_day: 20,
-      speed_mbps: 500,
+      location: "Enugu State College of Medicine Hostel 2 and 3",
+      price_per_day: 1500,
+      speed_mbps: 100,
     },
   ]);
   const [loading, setLoading] = useState(false);
@@ -318,7 +318,7 @@ function MainComponent() {
                 </p>
                 <div className="flex items-center justify-between mb-4">
                   <p className="text-blue-600 dark:text-blue-400 font-bold font-sigmar">
-                    ${spot.price_per_day}/day
+                    N{spot.price_per_day}/day
                   </p>
                   <p className="text-blue-600 dark:text-blue-400 font-sigmar">
                     <i className="fas fa-bolt mr-2"></i>
@@ -326,7 +326,7 @@ function MainComponent() {
                   </p>
                 </div>
                 <a
-                  href={`/spot?id=${spot.id}`}
+                  href=""
                   className="mt-4 inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar w-full text-center"
                 >
                   View Details
@@ -337,13 +337,13 @@ function MainComponent() {
 
           <div className="text-center mt-12">
             <a
-              href="/browse"
+              href=""
               className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-sigmar inline-block mr-4"
             >
               Browse All Spots
             </a>
             <a
-              href="/wifi-access-marketplace"
+              href=""
               className="px-6 py-3 border-2 border-blue-200 hover:border-blue-300 text-blue-600 rounded-md hover:bg-blue-50 font-sigmar inline-block"
             >
               Become a Host
@@ -386,7 +386,7 @@ function MainComponent() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="/about"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     About Us
@@ -394,7 +394,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/how-it-works"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     How It Works
@@ -402,7 +402,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/pricing"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Pricing
@@ -410,7 +410,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/blog"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Blog
@@ -425,7 +425,7 @@ function MainComponent() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="/help"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Help Center
@@ -433,7 +433,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/safety"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Safety Center
@@ -441,7 +441,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/community"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Community Guidelines
@@ -449,7 +449,7 @@ function MainComponent() {
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href=""
                     className="text-white/80 hover:text-white font-sigmar"
                   >
                     Contact Us
@@ -484,23 +484,23 @@ function MainComponent() {
           <div className="mt-12 pt-8 border-t border-blue-800">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-white/80 text-sm font-sigmar">
-                © 2024 WiFi Share. All rights reserved.
+                © 2025 WiFi Access. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a
-                  href="/terms"
+                  href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Terms of Service
                 </a>
                 <a
-                  href="/privacy"
+                  href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="/cookies"
+                  href=""
                   className="text-white/80 hover:text-white text-sm font-sigmar"
                 >
                   Cookie Policy
